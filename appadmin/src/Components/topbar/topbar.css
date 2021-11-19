@@ -1,0 +1,67 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    padding-top: 10px;
+    position: sticky;
+    top: 0px;
+    /* z-index: 999; */
+}
+
+.topbarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-weight: bold;
+    color: #FFA07A;
+    font-size: 30px;
+}
+
+.topRight{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.iconContainer{
+    padding: 4px;
+    background-color: #efecec;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    color:black;
+    cursor: pointer;
+}
+
+.topbarIconContainer{
+    position: relative;
+}
+
+.topIconBag{
+    position: absolute;
+    top:-1px;
+    right: -5px;
+    color: white;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.topbarAvata{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
