@@ -1,0 +1,80 @@
+.widgetLg{
+    flex: 2;
+    -webkit-box-shadow: 10px 14px 14px -5px rgba(0,0,0,0.25); 
+    box-shadow: 10px 14px 14px -5px rgba(0,0,0,0.25);
+    padding: 20px;
+}
+
+.widgetLgTitle{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.widgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+
+}
+
+.widgetLgtr{
+    position: relative;
+   
+}
+
+.widgetLgth{
+    text-align: left;
+}
+
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;}
+    
+
+.widgetLgimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.widgetLgName{
+    font-weight: 600;
+}
+
+.widgetLgDate, .widgetLgAmount{
+    padding: 0 20px;
+    font-weight: 300;
+}
+
+/* .widgetLgDate span{
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+} */
+
+
+.widgetLgStatus{
+    padding: 0 20px;
+
+}
+
+.widgetLgBtn{
+    border-radius: 10px ;
+    border: none;
+    color:white;
+    padding: 5px 10px;
+}
+
+.widgetLgBtn.Approved{
+    background-color: yellowgreen;
+}
+
+.widgetLgBtn.Declined{
+    background-color:tomato;
+}
+
+.widgetLgBtn.Pending{
+    background-color: #f9c74f;
+}
