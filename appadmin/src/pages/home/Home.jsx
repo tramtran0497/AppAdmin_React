@@ -5,6 +5,7 @@ import Chart from '../../Components/chart/Chart';
 import {dataUser} from '../../data.js'
 import WidgetLg from '../../Components/widgetLg/WidgetLg';
 import WidgetSm from '../../Components/widgetSm/WidgetSm';
+
 function Home() {
     return (
         <div className="home">
