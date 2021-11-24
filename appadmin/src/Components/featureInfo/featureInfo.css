@@ -5,9 +5,8 @@
 }
 
 .featureItem{
-    flex: 1;
-    margin: 0px 20px;
-    padding: 30px;
+    width: calc(100% / 3 - 20px);
+    padding: 20px;
     border-radius:5px;
     cursor: pointer;
     -webkit-box-shadow: 10px 14px 14px -5px rgba(0,0,0,0.25); 

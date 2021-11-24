@@ -1,0 +1,31 @@
+.newProduct{
+    flex: 4;
+    margin: 0 20px ;
+
+}
+
+.newProductTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.productFormLeft label{
+    display: flex;
+    align-items: center;
+}
+
+.productNewIcon ..MuiSvgIcon-root{
+    margin-left: 10px;
+}
+
+.productNewBtn{
+    width: 90px;
+    height: 30px;
+    padding: 7px 7px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #006d77;
+    cursor: pointer;
+    
+}

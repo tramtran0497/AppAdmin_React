@@ -1,5 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 .container{
     display: flex;
     margin-top: 10px;
 }
 
+.link{
+    text-decoration: none;
+    color: inherit;
+}

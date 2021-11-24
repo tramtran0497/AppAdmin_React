@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "./userList.css"
 import { DataGrid } from '@material-ui/data-grid';
-import {Edit, DeleteForever} from '@material-ui/icons';
+import {DeleteForever} from '@material-ui/icons';
 import { userRow } from '../../data';
 import {Link} from 'react-router-dom'
 

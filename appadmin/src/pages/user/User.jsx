@@ -1,12 +1,15 @@
 import React from 'react'
 import './user.css'
-import {PermIdentity, CalendarToday, PhonelinkRing, Mail,LocationCity } from '@material-ui/icons'
+import {PermIdentity, CalendarToday, PhonelinkRing, Mail,LocationCity, Publish} from '@material-ui/icons';
+import {Link} from 'react-router-dom'
 function User() {
     return (
         <div className="user">
             <div className="userTitleContainer">
                 <h1 className="userTitle">Edit User</h1>
-                <button className="userAddBtn">Create</button>
+                <Link to={"/userNew"}>
+                    <button className="userAddBtn">Create</button>
+                </Link>
             </div>
             <div className="userContainer">
                 <div className="userShow">
@@ -47,9 +50,35 @@ function User() {
                     <span className="userUpdateTitle">Edit</span>
                     <form action="" className="userUpdateForm">
                         <div className="userUpdateLeft">
-                            <div className="userUpdateItem"></div>
+                            <div className="userUpdateItem">
+                                <label htmlFor="">Username</label>
+                                <input type="text" placeholder="anna02345" className="userUpdateInput" />
+                            </div>
+                            <div className="userUpdateItem">
+                                <label htmlFor="">Full Name</label>
+                                <input type="text" placeholder="Anna Joley" className="userUpdateInput" />
+                            </div>
+                            <div className="userUpdateItem">
+                                <label htmlFor="">Phone Number</label>
+                                <input type="text" placeholder="+358 456 345 123" className="userUpdateInput" />
+                            </div>
+                            <div className="userUpdateItem">
+                                <label htmlFor="">Email</label>
+                                <input type="email" placeholder="anna@gmail.com" className="userUpdateInput" />
+                            </div>
+                            <div className="userUpdateItem">
+                                <label htmlFor="">Location</label>
+                                <input type="text" placeholder="Lahti | Finland" className="userUpdateInput" />
+                            </div>
                         </div>
-                        <div className="userUpdateRight"></div>
+                        <div className="userUpdateRight">
+                            <div className="userUpdateUpload">
+                                <img src="https://images.unsplash.com/photo-1637315145639-1c4ede81dab4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" alt="" className="userUpdateImg" />
+                                <label htmlFor="file"><Publish className="userUpdateIcon"/></label>
+                                <input type="file" id="file" style={{display: "none"}}/>
+                            </div>
+                            <button className="userUpdateBtn">Update</button>
+                        </div>
                     </form>
                 </div>
             </div>

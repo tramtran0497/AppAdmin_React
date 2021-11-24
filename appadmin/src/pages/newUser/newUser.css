@@ -1,0 +1,71 @@
+.newUser{
+    flex: 4;
+   padding: 20px;
+}
+
+.newUserTitle{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 10px 14px 14px -5px rgba(0,0,0,0.25); 
+    box-shadow: 10px 14px 14px -5px rgba(0,0,0,0.25);
+}
+
+.newUserItem{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    margin: 7px;
+
+}
+
+.newUserItem label{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.newUserInput{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+}
+
+.genderWrap{
+    display: flex;
+}
+
+.newUserItem.Gender input{
+    margin: 0px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.newUserItem.Gender label:last-child{
+   font-weight: 300;
+   font-size: 15px;
+}
+
+.newUserSelect{
+    width: 80px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.newUserBtn{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:#005f73 ;
+    margin-left:320px;
+    margin-top: 30px;
+    cursor: pointer;
+}
